@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="6.3" multi-file="no">
+  <meta>
+    <name>mgnop</name>
+    <authors>Chen wei</authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="P223dded05b2342faaa9ac2398c85d97d">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items>
+    <item id="di733477149405445671" cid="CMT001" type="comment" name="Comment" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/02/2013 11:09:00">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>2G小区业务量统计
+GSM/性能
+Boco.Rnop.Mgnop.WinForm\Tasks\Common\TrafficTask.cs</comment>
+    </item>
+    <item id="di644803160611050443" cid="CN001" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/02/2013 11:09:00">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="p407361358270817317" name="Classes" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>09/02/2013 11:08:29</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p985652796606270481" name="TaskClasses" order-index="1" show-nullability="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>09/02/2013 11:08:29</creation-date>
+          <change-date>09/02/2013 11:11:27</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values />
+        <abstract-items>
+          <item id="di772997250652630935" cid="C001" type="class" name="TrafficTask" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="09/02/2013 11:08:45">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di772997250652630935" iid="26830a5a1c054fb99d81be83bf6a09d2" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="09/02/2013 11:08:45" order-index="0" type="entity">
+            <layout ax="240" ay="166" awidth="128" aheight="127" x="240" y="166" width="128" height="127" angle="0" />
+            <class />
+          </item>
+          <item id="di733477149405445671" iid="f97a1a34aad34a84ae24bce4f4859daf" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="09/02/2013 11:09:00" order-index="1" type="entity">
+            <layout ax="120" ay="34" awidth="367" aheight="83" x="120" y="34" width="367" height="83" angle="0" />
+          </item>
+          <item id="di644803160611050443" iid="afe2f99af1bd404aa531f9d77ce6affa" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="09/02/2013 11:09:00" order-index="2" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="304" y1="117" x2="304" y2="166" start-border-pos="0.624659400544959" end-border-pos="0.125">
+              <points>
+                <point x="304" y="117" />
+                <point x="304" y="166" />
+              </points>
+            </layout>
+            <relation from="di733477149405445671" from-iid="f97a1a34aad34a84ae24bce4f4859daf" to="di772997250652630935" to-iid="26830a5a1c054fb99d81be83bf6a09d2" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
